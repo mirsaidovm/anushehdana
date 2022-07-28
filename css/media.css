@@ -1,0 +1,25 @@
+@media (max-width:320px) {
+    .header-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .new-btn{
+        font-size: 18px;
+    }
+    .header-aboutme p{
+        font-size: 14px !important;
+    }
+    .header-aboutme h2{
+        font-size: 26px !important;
+        padding: 0 !important;
+    }
+    .header-aboutme{
+        padding: 35px !important;
+    }
+    .logo img{
+        width: 110% !important;
+    }
+    .header-content img{
+        width: 150% !important;
+    }
+}
