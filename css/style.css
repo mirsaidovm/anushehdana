@@ -7,8 +7,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     --rm:Raleway-Medium;
     --rsb:Raleway-SemiBold;
 }
+*{
+    user-select: none;
+}
 .logo{
     font-size: 40px;
+    color: #FFF1E1 !important;
 }
 .nav-content{
     margin-bottom: 50px;
@@ -19,7 +23,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     padding-top: 15px;
 }
 .header-img{
-    max-width: 90%;
+    max-width: 100%;
 }
 .header-content{
     display: flex;
@@ -28,7 +32,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     gap: 20px;
 }
 .header-aboutme{
-    max-width: 693px;
+    max-width: 100%;
     text-align: center;
     padding: 70px;
     background: #87CEFA;
@@ -77,5 +81,79 @@ hr{
     font-size: 24px;
     letter-spacing: 1px;
 }
-.nav-content__div{
+header{
+    margin-bottom: 160px;
 }
+/* main */
+.historical-places{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.other-photos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.sub-photos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.photos-title{
+    font-size: 70px;
+    font-family: Raleway-Bold;
+    margin-bottom: 115px;
+}
+.img-card__img{
+    margin-bottom: 23px;
+}
+.gallery-card__title{
+    margin-bottom: 24px;
+    font-size: 26px;
+    font-family: Raleway-ExtraBold;
+}
+.gallery-cards{
+    display: flex;
+    gap: 185px;
+
+}
+.gallery-card__p{
+    font-size: 25px;
+    font-family: Raleway-Medium;
+}
+.gallery-card{
+    text-align: left;
+    margin-bottom: 94px;
+}
+.danaanusheh{
+    background: #FAB387;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text p{
+    color: #000000;
+    font-size: 50px;
+    font-family: var(--reb);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.reviews{
+    padding-top: 86px;
+}
+html{
+    overflow-x: hidden !important;
+}
+/* main */
